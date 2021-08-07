@@ -30,3 +30,5 @@ readFile('./anotherContent/first.txt', 'utf8', (err, result) => {
   })
 
 })
+
+console.log('This is event loop');
