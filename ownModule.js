@@ -4,7 +4,7 @@ const names = require('./ownModule1');
 const sayHiDear = require('./ownModuleF');
 const data = require('./ownAlternative');
 console.log(data);
-console.log(data.items[0].item1);
+
 console.log(data.multiplePerson);
 // console.log(data.multiplePerson.img);
 
