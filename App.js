@@ -1,3 +1,5 @@
+const wonModule1 = require("./ownModule1");
+
 console.log(__dirname);
 // console.log(__fileName);
 setInterval(()=> {
@@ -11,6 +13,7 @@ console.log('Hello WORLD');
 finally filled up event loop!(javascript execute line by line)*/ 
 
 
+// without modules 
 const john = 'john';
 const peter = 'peter';
 
@@ -21,3 +24,8 @@ const sayHi = (name) => {
 
 sayHi(john);
 sayHi(peter);
+
+
+// with won modules
+
+
