@@ -11,4 +11,13 @@ console.log('Hello WORLD');
 finally filled up event loop!(javascript execute line by line)*/ 
 
 
+const john = 'john';
+const peter = 'peter';
 
+
+const sayHi = (name) => {
+   console.log(`Hello dear ${name}`);
+}
+
+sayHi(john);
+sayHi(peter);
