@@ -1,4 +1,4 @@
-module.exports.items = [{item1: 'Apple'}, {item2: 'jackfruits'}]
+module.exports.items = [{item1: 'Apple'}, {item2: 'jackfruits'}, {item3: 'Orange'}]
 
 const person = {
     name: 'bob',
