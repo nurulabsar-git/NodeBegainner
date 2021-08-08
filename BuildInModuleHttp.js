@@ -3,7 +3,7 @@ const http = require('http')
 const server = http.createServer((req, res) => {
     // console.log(req);
 
-if(req.url==='/'){
+if(req.url === '/'){
     res.end('Well come to our home page')
 }
 
@@ -11,7 +11,7 @@ if(req.url === '/service'){
     res.end('Well come to our service page')
 }
 
-if(req.url==='/about'){
+if(req.url === '/about'){
     res.end('Here our short history!')
 }
 
