@@ -22,7 +22,7 @@ readFile('./anotherContent/first.txt', 'utf8', (err, result) => {
             return;
         }
   
-      //   console.log(result);
+        console.log('result');
     })
   }, 1000)
 
